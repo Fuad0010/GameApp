@@ -1,13 +1,13 @@
 ﻿using DataAccess;
 using DataAccess.Interfaces;
-using Entity.Models;
+using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Business.Repositories
+namespace DataAccess.Repositories
 {
     public class GameRepository : IRepository<Game>
     {
